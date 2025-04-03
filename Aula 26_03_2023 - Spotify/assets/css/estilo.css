@@ -16,6 +16,7 @@ body {
 				linear-gradient(50deg,#ff4169,#7c26f8);
 	background-attachment: fixed;
 	font-family: Helvetica,Arial,sans-serif;
+	min-height: 100%;
 }
 
 /* Barra de navegação
@@ -82,6 +83,7 @@ nav.navbar-transparente {
 	width: 5%;
 }
 
+
 /* Estrutura conteúdos
 -----------------------------*/
 .caixa {
@@ -89,6 +91,30 @@ nav.navbar-transparente {
 	padding-bottom: 20px;
 }
 
+#logar{
+	background-color: #7d25f880;
+}
+
+.conta{
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 30px;
+	margin-top: 319px;
+	margin-bottom: 319px;
+	margin-left: 670px;
+	margin-right: 670px;
+	color: #000000;
+	border-radius: 8px;
+	border: solid 1px;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	columns: 1;
+}
+
+#ajuda{
+	background: rgb(253, 199, 253, 0.6);
+}
 #servicos {
 	background: white;
 }
